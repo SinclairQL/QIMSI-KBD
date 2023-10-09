@@ -16,7 +16,7 @@ So, you will need a *passive* PS/2 to USB converter. They are pretty simple, con
 
 Loading and activating the driver
 ---------------------------------
-Simple as that: copy the QIMSIKBD_bin file to your boot drive and put a line **LRESPR win1_QIMSIKBD_bin** in your BOOT file (if you still don't have Toolkit II, you have to use something like **a=RESPR(4096): LBYTES win1_QIMSIKBD_bin,a: CALL a**).
+Simple as that: unzip the QIMSIKBD.ZIP file to your boot drive and put a line **LRESPR win1_QIMSIKBD_bin** in your BOOT file (if you still don't have Toolkit II, you have to use something like **a=RESPR(4096): LBYTES win1_QIMSIKBD_bin,a: CALL a**).
 
 After this, you can control the driver using the following extra S\*BASIC commands:
 
